@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1320px){
+    .head{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .head{
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 880px){
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .head{
+        background-color: #06031d;
+        padding-top: 25px;
+    }
+    .logo img{
+        height: 80px;
+        width: 70px;
+        padding: 7px 0px 0px 0px;
+        margin: -34px 0px -11px 0px;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin:  6px 0;
+    }
+    .navbar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #3d396d;
+        transition: 0.2s;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .navbar.active{
+        height: 450px;
+    }
+ 
+    .navbar.active ul{
+        opacity: 1;
+    }
+    .navbar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .navbar ul li a{
+        margin-bottom: 12px;
+        color: rgb(255, 255, 255);
+
+    }
+}
+@media only screen and (max-width: 1325px){
+    #about{
+        height: 1100px;
+        
+    }
+}
+@media only screen and (max-width: 1216px){
+    #about{
+        height: 1200px;
+        
+    }
+}
+@media only screen and (max-width: 1100px){
+    #about{
+        height: 1300px;
+        
+    }
+}
+@media only screen and (max-width: 850px){
+    #about{
+        height: 1400px;
+        
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .about-content{
+        font-size: 18px;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    #about{
+        height: 1325px;
+        
+    }
+    #btn{
+        font-size: 14px;
+        font-weight: 500px;
+        padding: 2px;
+        margin: 2px;
+        border-radius: 25px;
+    }
+    .about-content{
+        font-size: 16px;
+        
+    }
+}
+@media only screen and (max-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .about-hd h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 550px){
+    #about{
+        height: 1425px;
+        
+    }
+    .about-content{
+        font-size: 16px;
+        
+    }
+    .content  h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #about{
+        height: 1300px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+    #btn{
+        font-size: 14px;
+        font-weight: 300px;
+        padding: 5px;
+        margin: 2px;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width: 450px){
+    #about{
+        height: 1400px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+    #btn{
+        font-size: 14px;
+        font-weight: 200px;
+        padding: 3px;
+        margin: 2px;
+        border-radius: 15px;
+    }
+    .content  h3{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #about{
+        height: 1540px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+    .content  h3{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 350px){
+    #about{
+        height: 1685px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+    .content  h3{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    #about{
+        height: 1750px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+}
+@media only screen and (max-width: 300px){
+    #about{
+        height: 1800px;
+        
+    }
+    .about-content{
+        font-size: 14px;        
+    }
+}
+@media only screen and (max-width: 280px){
+    #about{
+        height: 1959px;
+        
+    }
+    .about-content{
+        font-size: 14px;        
+    }
+}
+@media only screen and (max-width: 260px){
+    #about{
+        height: 2500px;
+        
+    }
+    .about-content{
+        font-size: 14px;
+        
+    }
+}
+
+

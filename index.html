@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  <title>Country Guide</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="phone.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section id="head">
+    <header class="head">
+      <div class="logo">
+
+        <a href="index.html" target="_self"> <img src="images/logo-3.png " alt=""></a>
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="">HOME</a>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#footer">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+  <section id="marqueee">
+    <div class="containerf">
+      <div class="slide-container">
+        <div class="slide-images">
+          <img src="flags/1.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/2.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/3.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/4.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/5.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/6.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/7.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/8.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/9.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/10.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/11.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/12.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/14.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/15.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/16.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/17.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/18.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/19.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/20.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/21.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/22.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/23.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/24.png" alt="">
+        </div>
+        <div class="slide-images">
+          <img src="flags/25.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="main">
+    <div class="container">
+      <input type="text" placeholder="Enter the country name..." id="search" >
+      <button id="btn" onclick="getCountryData()">Search</button>
+      <div id="result"></div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="about-hd">
+    <h2>Welcome to "Country Guide"!</h2>
+    </div>
+    <div class="about-el">
+    
+      <div class="about-content">At World Country Info, we are your ultimate resource for comprehensive and up-to-date
+        information about all the countries in the world. Whether you're a curious traveler, a student working on a
+        project, or a researcher seeking valuable data, we've got you covered with a vast repository of knowledge about
+        each nation on Earth.</div>
+      <div class="about-content"><span>Our Mission:</span></div>
+      <div class="about-content">Our mission is simple: to provide users with an easily accessible, reliable, and engaging
+        platform that houses a wealth of information about every country worldwide. We believe that understanding the
+        diverse cultures, histories, and landscapes of our global community is essential to fostering appreciation,
+        respect, and cooperation among nations.</div>
+      <div class="about-content"><span>What We Offer:</span></div>
+      <div class="about-content"> <sub>Complete Flag Collection:</sub> Dive into our comprehensive database featuring the national
+        flags of every country recognized by the United Nations. From large nations to tiny island countries, we
+        celebrate the uniqueness of each flag and the stories they tell.</div>
+      <div class="about-content"><sub>Capital Directory:</sub> Explore our extensive directory featuring the names of capital cities
+        from every sovereign country worldwide. From the well-known capitals of major nations to the lesser-known
+        capitals of smaller states, we've got them all covered.</div>
+      <div class="about-content"> <sub>Currency: </sub>On this site, we provide the name of currency of all the countries from all over
+        the world. From major world currencies to the more obscure ones, we've compiled a diverse collection to cater to
+        all interests.</div>
+      <div class="about-content"><sub>Common Language Repository:</sub> Explore our extensive database featuring the names of common
+        languages spoken in every sovereign country worldwide. From widely spoken global languages to lesser-known
+        regional ones, we celebrate the richness of linguistic diversity.</div>
+      <div class="about-content"><sub> Continent:</sub> We have a total of seven continents and we provide the specific continent name
+        of every country all over the world.</div>
+      <div class="about-content" ><sub> Population:</sub>  Explore our extensive database featuring the current population numbers of
+        every sovereign country in the world. From the most populous nations to the sparsely inhabited ones, we provide
+        a comprehensive overview of global population figures.</div>
+      <div class="about-content"> <sub>Timezone:</sub> Last but not least we provide the specific timezone of the specific country that
+        you just searched, think how helpful it is.</div>
+      <div class="about-content"><span>Our Commitment:</span></div>
+      <div class="about-content">At World Country Info, we are committed to maintaining accuracy and relevance in our content.
+        Our team of dedicated researchers and content creators continually updates the information to ensure you have
+        access to the most current data and insights.</div>
+      <div class="about-content">Join us on this exciting global journey as we uncover the wonders of our world's countries.
+        Whether you're exploring for educational purposes, travel planning, or pure curiosity, World Country Info is
+        your gateway to a deeper understanding of the world's diverse nations. Happy exploring!</div>
+
+    </div>
+
+  </section>
+
+
+  <section id="footer">
+    <footer>
+      <div class="content">
+        <h3>cOUNTRY GUIDE</h3>
+        <p>Discover, learn, and connect with our Country Guide.</p>
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+
+
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy; codeopacity. </p>
+      </div>
+    </footer>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

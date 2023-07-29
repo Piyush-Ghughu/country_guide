@@ -1,0 +1,14 @@
+    width: 80vw;
+    max-width: 50rem;
+    background-color: #eee;
+    padding: 3rem 2rem;
+    position: relative ;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    box-shadow: 5px 10px 10px #031a42;
+    border-radius: 1.2rem;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 2rem;
+    margin-top: 0;
